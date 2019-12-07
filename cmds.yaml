@@ -1,0 +1,18 @@
+  # commandss.yaml file
+# cleanup
+
+thingsToReplace: "DESC, FIXID, DATA_OBJ_ID"
+DESC: "Script(__.py) Reject - Request from Genius ZZZZZ"
+FIXID: FXPLIN3
+rules: 
+  - "DATA_OBJ_ID make a list for db."
+  - "Make Todays date"
+   
+
+commands:
+  - getUrl mygeturl.py
+  - test test.py
+  - Exit exit.py
+  - ping ping.py -a {%a} -b {%b}
+  - mail mymail.py
+
