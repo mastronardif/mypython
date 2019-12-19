@@ -2,11 +2,15 @@
 import os
 import sys
 import requests
+from environs import Env
+
+env = Env()
+env.read_env()  # read .env file, if it exists
 
 #print(os.environ['HOME'])
 #print(os.environ['Mg__api_key'])
 #url = os.environ.get('Mg__api_key', 'amqp://guest:guest@localhost/%2f')  #os.environ['CLOUDAMQP_URL'] || 
-Mg__api_key= os.environ['Mg__api_key'] #'key-0-rxwnpe9gllqe6odwxebn79vicgxf76'
+Mg__api_key= env("Mg__api_key") #os.environ['Mg__api_key'] #'key-0-rxwnpe9gllqe6odwxebn79vicgxf76'
 Mg__dontuse=1
 
 def send_simple_message():

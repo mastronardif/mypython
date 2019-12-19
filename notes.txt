@@ -1,0 +1,11 @@
+python mygeturl.py --u="http://www.joeschedule.com"
+
+
+python mygeturl.py --u="https://www.cnn.com/2019/12/18/politics/donald-trump-impeachment-reaction/index.html"
+
+
+
+
+
+
+.

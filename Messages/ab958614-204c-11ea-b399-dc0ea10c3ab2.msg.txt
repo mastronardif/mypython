@@ -1,0 +1,7 @@
+ID= ab958614-204c-11ea-b399-dc0ea10c3ab2Date= 2019-12-16 16:40:25.654789
+___________________________
+properties= <BasicProperties(['delivery_mode=1', "headers={'': []}"])>
+___________________________
+<tags>
+https://www.saltycrane.com/blog/2008/06/how-to-get-current-date-and-time-in/
+<tags>
